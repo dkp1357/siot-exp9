@@ -118,7 +118,7 @@ const Login = ({ onLogin }) => {
         </div>
 
         <button type="submit" className="btn" disabled={loading || !modelsReady}>
-          {loading ? <div className="loading-spinner"></div> : <><LogIn size={18} /> Secure Login</>}
+          {loading ? <div className="loading-spinner"></div> : <><LogIn size={18} /> Login</>}
         </button>
       </form>
     </div>
